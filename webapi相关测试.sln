@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "算法测试2015-09-24", "算法测试2015-09-24\算法测试2015-09-24.csproj", "{9159E6C7-5CF2-463F-8DC9-2F7671572F5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "算法测试 2015-09-25", "算法测试 2015-09-25\算法测试 2015-09-25.csproj", "{C4906759-6DDE-4849-89F5-6DECFC2E908E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9159E6C7-5CF2-463F-8DC9-2F7671572F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9159E6C7-5CF2-463F-8DC9-2F7671572F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9159E6C7-5CF2-463F-8DC9-2F7671572F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9159E6C7-5CF2-463F-8DC9-2F7671572F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4906759-6DDE-4849-89F5-6DECFC2E908E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4906759-6DDE-4849-89F5-6DECFC2E908E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4906759-6DDE-4849-89F5-6DECFC2E908E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4906759-6DDE-4849-89F5-6DECFC2E908E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
