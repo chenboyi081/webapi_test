@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\webapi_test\URL编码 2015-10-08\bin\Debug\URL编码 2015-10-08.exe.config
+C:\Users\Administrator\Desktop\webapi_test\URL编码 2015-10-08\bin\Debug\URL编码 2015-10-08.exe
+C:\Users\Administrator\Desktop\webapi_test\URL编码 2015-10-08\bin\Debug\URL编码 2015-10-08.pdb
+C:\Users\Administrator\Desktop\webapi_test\URL编码 2015-10-08\obj\Debug\URL编码 2015-10-08.exe
+C:\Users\Administrator\Desktop\webapi_test\URL编码 2015-10-08\obj\Debug\URL编码 2015-10-08.pdb
+C:\Users\Administrator\Desktop\webapi_test\URL编码 2015-10-08\obj\Debug\URL编码 2015-10-08.csprojResolveAssemblyReference.cache

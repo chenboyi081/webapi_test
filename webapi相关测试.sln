@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "算法测试2015-09-24", "�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "算法测试 2015-09-25", "算法测试 2015-09-25\算法测试 2015-09-25.csproj", "{C4906759-6DDE-4849-89F5-6DECFC2E908E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URL编码 2015-10-08", "URL编码 2015-10-08\URL编码 2015-10-08.csproj", "{E2A6ACB9-8634-4E85-A403-4D2034513FAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{C4906759-6DDE-4849-89F5-6DECFC2E908E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4906759-6DDE-4849-89F5-6DECFC2E908E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4906759-6DDE-4849-89F5-6DECFC2E908E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A6ACB9-8634-4E85-A403-4D2034513FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A6ACB9-8634-4E85-A403-4D2034513FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A6ACB9-8634-4E85-A403-4D2034513FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A6ACB9-8634-4E85-A403-4D2034513FAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
