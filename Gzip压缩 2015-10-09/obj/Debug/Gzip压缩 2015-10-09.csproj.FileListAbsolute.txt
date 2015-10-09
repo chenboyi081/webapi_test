@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\webapi_test\Gzip压缩 2015-10-09\bin\Debug\Gzip压缩 2015-10-09.exe.config
+C:\Users\Administrator\Desktop\webapi_test\Gzip压缩 2015-10-09\bin\Debug\Gzip压缩 2015-10-09.exe
+C:\Users\Administrator\Desktop\webapi_test\Gzip压缩 2015-10-09\bin\Debug\Gzip压缩 2015-10-09.pdb
+C:\Users\Administrator\Desktop\webapi_test\Gzip压缩 2015-10-09\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\webapi_test\Gzip压缩 2015-10-09\obj\Debug\Gzip压缩 2015-10-09.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\webapi_test\Gzip压缩 2015-10-09\obj\Debug\Gzip压缩 2015-10-09.exe
+C:\Users\Administrator\Desktop\webapi_test\Gzip压缩 2015-10-09\obj\Debug\Gzip压缩 2015-10-09.pdb
