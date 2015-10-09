@@ -11,7 +11,7 @@ namespace URL编码_2015_10_08
         static void Main(string[] args)
         {
             //System.Web.HttpUtility：提供用于在处理 Web 请求时编码和解码 URL 的方法。 此类不能被继承。
-            string strParameter = "a=3";        //参数
+            string strParameter = "a=3";        //参数。
 
             string result1 = System.Web.HttpUtility.UrlEncode(strParameter);                    //result1:a%3d3
             string result2 = System.Web.HttpUtility.UrlEncode(strParameter, Encoding.UTF8);      //result2:a%3d3
