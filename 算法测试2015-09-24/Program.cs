@@ -53,7 +53,7 @@ namespace 算法测试2015_09_24
             //Console.WriteLine("MD5计算所得值1：" + MD5Str1 + "\r\n" + "MD5计算所得值2：" + MD5Str2); 
             #endregion
 
-            //Console.ReadKey();
+            Console.ReadKey();
         }
 
     }
