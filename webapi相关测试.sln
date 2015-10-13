@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gzip压缩 2015-10-09", "Gz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "命名空间System.Web.Http  2015-10-13", "命名空间System.Web.Http  2015-10-13\命名空间System.Web.Http  2015-10-13.csproj", "{58BB12CC-3E1A-43BD-9943-B14C92F6292B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIClient", "WebAPIClient\WebAPIClient.csproj", "{0AD9D673-4273-4399-9FAE-9C25F5C61987}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{58BB12CC-3E1A-43BD-9943-B14C92F6292B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58BB12CC-3E1A-43BD-9943-B14C92F6292B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58BB12CC-3E1A-43BD-9943-B14C92F6292B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AD9D673-4273-4399-9FAE-9C25F5C61987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD9D673-4273-4399-9FAE-9C25F5C61987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD9D673-4273-4399-9FAE-9C25F5C61987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD9D673-4273-4399-9FAE-9C25F5C61987}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
