@@ -7,7 +7,7 @@ using System.Web.Http;
 
 namespace 命名空间System.Web.Http__2015_10_13.Controllers
 {
-    public class ValuesController : ApiController
+    public class ValuesController : ApiControllerBase
     {
         // GET api/values
         public IEnumerable<string> Get()
