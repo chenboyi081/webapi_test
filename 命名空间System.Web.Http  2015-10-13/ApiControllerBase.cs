@@ -14,7 +14,6 @@ namespace 命名空间System.Web.Http__2015_10_13
         protected override void Initialize(System.Web.Http.Controllers.HttpControllerContext controllerContext)
         {
             string postContentData = string.Empty;
-
             if (controllerContext.Request.Method != System.Net.Http.HttpMethod.Get)     //非get请求
             {
                 NameValueCollection postParam = null;

@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\webapi_test\Task并行编程(Task执行和异常处理) 2015-11-04\bin\Debug\Task并行编程(Task执行和异常处理) 2015-11-04.exe.config
+C:\Users\Administrator\Desktop\webapi_test\Task并行编程(Task执行和异常处理) 2015-11-04\bin\Debug\Task并行编程(Task执行和异常处理) 2015-11-04.exe
+C:\Users\Administrator\Desktop\webapi_test\Task并行编程(Task执行和异常处理) 2015-11-04\bin\Debug\Task并行编程(Task执行和异常处理) 2015-11-04.pdb
+C:\Users\Administrator\Desktop\webapi_test\Task并行编程(Task执行和异常处理) 2015-11-04\obj\Debug\Task并行编程(Task执行和异常处理) 2015-11-04.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\webapi_test\Task并行编程(Task执行和异常处理) 2015-11-04\obj\Debug\Task并行编程(Task执行和异常处理) 2015-11-04.exe
+C:\Users\Administrator\Desktop\webapi_test\Task并行编程(Task执行和异常处理) 2015-11-04\obj\Debug\Task并行编程(Task执行和异常处理) 2015-11-04.pdb

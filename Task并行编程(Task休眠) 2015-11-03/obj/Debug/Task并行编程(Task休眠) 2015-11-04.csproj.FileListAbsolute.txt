@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\webapi_test\Task并行编程(Task休眠) 2015-11-03\bin\Debug\Task并行编程(Task休眠) 2015-11-03.exe.config
+C:\Users\Administrator\Desktop\webapi_test\Task并行编程(Task休眠) 2015-11-03\bin\Debug\Task并行编程(Task休眠) 2015-11-03.exe
+C:\Users\Administrator\Desktop\webapi_test\Task并行编程(Task休眠) 2015-11-03\bin\Debug\Task并行编程(Task休眠) 2015-11-03.pdb
+C:\Users\Administrator\Desktop\webapi_test\Task并行编程(Task休眠) 2015-11-03\obj\Debug\Task并行编程(Task休眠) 2015-11-03.exe
+C:\Users\Administrator\Desktop\webapi_test\Task并行编程(Task休眠) 2015-11-03\obj\Debug\Task并行编程(Task休眠) 2015-11-03.pdb

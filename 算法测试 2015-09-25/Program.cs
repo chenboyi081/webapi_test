@@ -12,6 +12,9 @@ namespace 算法测试_2015_09_25
     {
         static void Main(string[] args)
         {
+            DESCryptoServiceProvider provider = new DESCryptoServiceProvider();
+            ICryptoTransform trasform = provider.CreateDecryptor();
+
             #region MSDN 下面的代码示例创建一个 TripleDESCryptoServiceProvider 对象并使用该对象加密和解密文件中的数据。
             try
             {
@@ -74,7 +77,8 @@ namespace 算法测试_2015_09_25
             Console.WriteLine("Encrypt IV :{0}", txtIV);
             Console.WriteLine();
             string txtEncrypted = EncryptString("1111");
-            Console.WriteLine("Encrypt String : {0}", txtEncrypted);
+            Console.WriteLine("Encrypt String : {0}", txtEncrypted);       
+            //OZ5oJxsrU5Q=
             string txtOriginal = DecryptString(txtEncrypted);
             Console.WriteLine("Decrypt String : {0}", txtOriginal); 
             #endregion

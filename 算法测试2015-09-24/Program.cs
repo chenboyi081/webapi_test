@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace 算法测试2015_09_24
 {
@@ -10,24 +13,37 @@ namespace 算法测试2015_09_24
     {
         static void Main(string[] args)
         {
+
+            #region 公钥匙转换 xml转pem
+            var rsa = new RSACryptoServiceProvider();
+            using (var sr = new StreamReader("E:\\PublicKey.xml"))
+            {
+                rsa.FromXmlString(sr.ReadToEnd());
+            }
+            string rsaPem = PEM_Changer.ExportPublicKeyToPEMFormat(rsa); 
+            #endregion
+
+            #region 生成rsa公私钥,并读取rsa公私钥 
             Security s = new Security();
             //s.InitialReg("/rsaPath");           // 初始化注册表，程序运行时调用，在调用之前更新公钥xml
             s.RSAKey("../PrivateKey.xml", "../PublicKey.xml");    //生成rsa公私钥  C:\Users\Administrator\Desktop\webapi相关测试\算法测试2015-09-24\bin 下可以找到
             string PrivateKey = s.ReadPrivateKey("../PrivateKey.xml");
-            string PublicKey = s.ReadPrivateKey("../PublicKey.xml");
-          
-          
+            string PublicKey = s.ReadPrivateKey("../PublicKey.xml"); 
+            #endregion
+
+
+            #region 服务端对用户硬盘号进行RSA加密，客户端用公钥解密
             string HDInfo = s.GetHardID();      //获取用户硬盘号
             string HDInfoRsaStr = s.RSAEncrypt(PublicKey, HDInfo);   //服务端对用户硬盘号进行RSA加密
             string HDInfoDRsaStr = s.RSADecrypt(PrivateKey, HDInfoRsaStr);  //客户端用公钥解密
-            string HDInfoMD5Str = s.GetHash(HDInfoDRsaStr);      //客户端对解密后的数据用MD5加密
+            string HDInfoMD5Str = s.GetHash(HDInfoDRsaStr);      //客户端对解密后的数据用MD5加密 
+            #endregion
 
             //string strContent = "我是地球人，我是中国人，我是浙江人，我是温州人！";     //发送消息
             //string strContent = "Hello!";
             //string Md5Str = s.GetHash(strContent);      //对字符进行MD5加密
             //string RsaStr = s.RSAEncrypt(PublicKey, Md5Str);       // RSA加密
             //string DRsaStr = s.RSADecrypt(PrivateKey,RsaStr);      // RSA解密
-
 
             #region 用户签名验证
             string usernameAndPwd = "cby" + "123456";
@@ -37,8 +53,6 @@ namespace 算法测试2015_09_24
             string SignatureStr = s.SignatureFormatter(PrivateKey, usernameAndPwdMd5Str);      //对MD5加密后的密文进行签名
             bool isRihtSignature = s.SignatureDeformatter(PublicKey, usernameAndPwdMd5Str, SignatureStr);      //签名验证 
             #endregion
-
-
 
             #region 使用System.Web.Security.FormsAuthentication.HashPasswordForStoringInConfigFile方法进行MD5和SHA1的加密
             //string temStr1 = "用我来计算SHA1值吧!";
