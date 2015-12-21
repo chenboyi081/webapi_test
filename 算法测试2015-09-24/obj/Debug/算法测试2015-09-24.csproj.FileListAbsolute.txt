@@ -11,3 +11,10 @@ C:\Users\Administrator\Desktop\webapi_test\算法测试2015-09-24\bin\Debug\算�
 C:\Users\Administrator\Desktop\webapi_test\算法测试2015-09-24\bin\Debug\算法测试2015-09-24.pdb
 C:\Users\Administrator\Desktop\webapi_test\算法测试2015-09-24\obj\Debug\算法测试2015-09-24.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\webapi_test\算法测试2015-09-24\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Administrator\Desktop\Git\webapi_test\算法测试2015-09-24\bin\Debug\算法测试2015-09-24.exe.config
+C:\Users\Administrator\Desktop\Git\webapi_test\算法测试2015-09-24\bin\Debug\算法测试2015-09-24.exe
+C:\Users\Administrator\Desktop\Git\webapi_test\算法测试2015-09-24\bin\Debug\算法测试2015-09-24.pdb
+C:\Users\Administrator\Desktop\Git\webapi_test\算法测试2015-09-24\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Administrator\Desktop\Git\webapi_test\算法测试2015-09-24\obj\Debug\算法测试2015-09-24.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Git\webapi_test\算法测试2015-09-24\obj\Debug\算法测试2015-09-24.exe
+C:\Users\Administrator\Desktop\Git\webapi_test\算法测试2015-09-24\obj\Debug\算法测试2015-09-24.pdb

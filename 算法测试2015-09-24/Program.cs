@@ -14,6 +14,10 @@ namespace 算法测试2015_09_24
         static void Main(string[] args)
         {
 
+           //string aesEn =  AESHelper.AESEncrypt("123123123123123123123");
+           //string aesD = AESHelper.AESDecrypt(aesEn);
+           //Console.WriteLine(aesEn + " "+ aesD);
+
             #region 公钥匙转换 xml转pem
             var rsa = new RSACryptoServiceProvider();
             using (var sr = new StreamReader("E:\\PublicKey.xml"))

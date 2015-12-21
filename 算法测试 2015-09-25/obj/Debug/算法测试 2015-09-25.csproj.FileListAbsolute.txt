@@ -10,3 +10,9 @@ C:\Users\Administrator\Desktop\webapi_test\算法测试 2015-09-25\bin\Debug\算
 C:\Users\Administrator\Desktop\webapi_test\算法测试 2015-09-25\obj\Debug\算法测试 2015-09-25.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\webapi_test\算法测试 2015-09-25\obj\Debug\算法测试 2015-09-25.exe
 C:\Users\Administrator\Desktop\webapi_test\算法测试 2015-09-25\obj\Debug\算法测试 2015-09-25.pdb
+C:\Users\Administrator\Desktop\Git\webapi_test\算法测试 2015-09-25\bin\Debug\算法测试 2015-09-25.exe.config
+C:\Users\Administrator\Desktop\Git\webapi_test\算法测试 2015-09-25\bin\Debug\算法测试 2015-09-25.exe
+C:\Users\Administrator\Desktop\Git\webapi_test\算法测试 2015-09-25\bin\Debug\算法测试 2015-09-25.pdb
+C:\Users\Administrator\Desktop\Git\webapi_test\算法测试 2015-09-25\obj\Debug\算法测试 2015-09-25.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Git\webapi_test\算法测试 2015-09-25\obj\Debug\算法测试 2015-09-25.exe
+C:\Users\Administrator\Desktop\Git\webapi_test\算法测试 2015-09-25\obj\Debug\算法测试 2015-09-25.pdb

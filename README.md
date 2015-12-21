@@ -5,7 +5,7 @@
 <p>1.使用FormsAuthentication.HashPasswordForStoringInConfigFile 方法 进行 SHA1加密</p>
 <p>2.RSA相关加密</p>
 <p>3.对原始数据进行MD5加密</p>
-
+<p>4.对原始数据进行AES加解密</p>
 ## 算法测试 2015-09-25 ##
 <p>1. 3DES加密</p>
 
